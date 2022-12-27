@@ -1,7 +1,14 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
+int N ;
+int M ;
+int i = 0 ;
+
+int printO(int N , int M);
+	while(i < N){
+		cout <<  "O"*M "\n"
+	}
 
 int main(){
 	
