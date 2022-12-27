@@ -1,14 +1,18 @@
 #include<iostream>
 using namespace std;
 
-int N ;
-int M ;
-int i = 0 ;
-
-int printO(int N , int M);
-	while(i < N){
-		cout <<  "O"*M "\n"
+void printO(int N , int M){
+	if(N > 0 && M > 0){
+		for(int i=0 ; i < N ; i++){
+			for(int i=0 ; i < M ; i++){
+				cout << "O" ;
+			}
+			cout << "\n";
+		}
+	}else{
+		cout << "Invalid input";
 	}
+}
 
 int main(){
 	
